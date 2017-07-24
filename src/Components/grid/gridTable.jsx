@@ -1,4 +1,5 @@
 ﻿import React from 'react';
+import PropTypes from 'prop-types';
 import GridRow from './gridRow.jsx';
 
 class GridTable extends React.Component {
@@ -35,6 +36,6 @@ class GridTable extends React.Component {
 }
 
 GridTable.propTypes = {
-    deals: React.PropTypes.array.isRequired
+    deals: PropTypes.array
 }
 export default GridTable;

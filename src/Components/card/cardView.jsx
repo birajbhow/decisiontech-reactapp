@@ -1,4 +1,5 @@
 ﻿import React from 'react';
+import PropTypes from 'prop-types';
 import CardRow from './cardRow.jsx';
 
 class CardView extends React.Component {
@@ -18,6 +19,6 @@ class CardView extends React.Component {
 }
 
 CardView.propTypes = {
-    deals: React.PropTypes.array.isRequired
+    deals: PropTypes.array
 }
 export default CardView;

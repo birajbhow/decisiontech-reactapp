@@ -1,4 +1,5 @@
 ﻿import React from 'react';
+import PropTypes from 'prop-types';
 import GridTable from '../grid/gridTable.jsx';
 import CardView from '../card/cardView.jsx';
 
@@ -44,6 +45,6 @@ class ContentPanel extends React.Component {
 }
 
 ContentPanel.propTypes = {
-    deals: React.PropTypes.array.isRequired
+    deals: PropTypes.array
 }
 export default ContentPanel;
