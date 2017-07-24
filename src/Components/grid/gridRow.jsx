@@ -19,7 +19,7 @@ class GridRow extends React.Component {
         return (
             <tr>
                 <td>{deal.title}</td>
-                <td>{deal.contractLength}</td>
+                <td>{deal.contractLength + "months"}</td>
                 <td>{deal.speed.label + "MB"}<br />{deal.usage.label}</td>
                 <td width="50px">
                     <div style={{backgroundImage: `url(${deal.offer.smallLogo})`}} className="offerImage"></div>
